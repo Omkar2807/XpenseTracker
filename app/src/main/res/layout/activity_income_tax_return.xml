@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!-- res/layout/activity_income_tax_calculator.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncomeTaxReturnActivity">
+
+    <EditText
+        android:id="@+id/editTextIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Annual Income"
+        android:inputType="numberDecimal"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/Calculatebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextIncome"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Calculate"/>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Calculatebtn"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="18sp"/>
+
+</RelativeLayout>

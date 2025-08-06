@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/balanceSheetTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <!-- Header Row -
+        <TableRow>
+            <TextView
+                android:background="@color/teal_700"
+                android:text="Date"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:background="@color/teal_700"
+                android:text="Category"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:background="@color/teal_700"
+                android:text="Type"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:background="@color/teal_700"
+                android:text="Amount"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_weight="1"/>
+        </TableRow>-->
+
+        <!-- Data Rows will be dynamically added here from code -->
+
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/searchEditText"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter Date (yyyy-MM-dd)"
+        android:imeOptions="actionDone"
+        android:inputType="date"
+        android:singleLine="true" />
+
+</RelativeLayout>
